@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-file-picker": "../../uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker",
+    "u-loadmore": "../../uni_modules/uview-plus/components/u-loadmore/u-loadmore"
+  }
+}

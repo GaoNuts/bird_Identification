@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/homepage/homepage",
+    "pages/index/index",
+    "pages/history/history",
+    "pages/user/user"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "BirdVisio",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#31C27C",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/main.png",
+        "selectedIconPath": "static/image/main1.png"
+      },
+      {
+        "text": "历史记录",
+        "pagePath": "pages/history/history",
+        "iconPath": "static/image/history.png",
+        "selectedIconPath": "static/image/history1.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/user/user",
+        "iconPath": "static/image/person.png",
+        "selectedIconPath": "static/image/person1.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
